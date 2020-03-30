@@ -13,6 +13,11 @@ public class MethodsTest {
 		
 		obj.isItRaining(false);
 		obj.isItRaining(true);
+		
+		
+		 obj.evenOrOdd(23);
+		 
+		 obj.islarger(10, 20);
 	}
 
 }

@@ -35,5 +35,29 @@ public class Methods {
 			
 			System.out.println("its not raining go for walk");
 		}
+		
+		
 	}
+	
+	void evenOrOdd (int a) {
+		if (a%2==0) {
+			
+			System.out.println(a+ " is an even number");
+		}else {
+			
+			System.out.println(a+ " is an odd number");
+		}
+		
+	}
+	void islarger (int a, int b) {
+		
+		if (a<b) {
+			System.out.println(b+ " is larger than "+a);
+		}else if(a>b) {
+			System.out.println(a+ " is larger than "+b);
+		}else {
+			System.out.println("equal");
+		}
+	}
+	
 }
