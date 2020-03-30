@@ -5,27 +5,18 @@ public class helloWorld {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int a = 51;
-		 short s= 32;
-		 double d= 3.14;
-		 char c  = 'A' ;
-		 boolean b = true;
-		 
-		 String onur ="onur";
-		 
-		 
-		   System.out.println("A nin degeri "
-		   		+  a   + " dir");
-		   System.out.println(s);
-	       System.out.println(d);
-	       System.out.println(c);
-		   System.out.println(b);
-	       System.out.println(onur);
-	
-		 
 		
-		System.out.println("onur eker");
+		for(int x=0; x<24; x++) {
+			
+			for(int y=0; y<60; y++) {
+				if (y<10) {
+					System.out.println(x+":0"+y);	
+				}else {
+					System.out.println(x+":"+y);
+				}
 		
+		
+			}}
 
 	}
 

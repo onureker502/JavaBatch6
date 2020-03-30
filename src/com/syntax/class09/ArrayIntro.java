@@ -17,6 +17,35 @@ public class ArrayIntro {
 		//access elements from an array
 		System.out.println(array[1]);
 		
+		// second way
+		
+		String[] carArray;  // prefered way
+		String carArray1[];
+		
+		carArray= new String[3];
+		carArray[0]="BMW";
+		carArray[1]="honda";
+		carArray[2]="toyota";
+		
+		
+		System.out.println("i am driving " + carArray[2]);
+		
+		
+		////////////////
+		
+		
+		int[] numbers=new int[6];
+		
+		numbers[0]=100;
+		numbers[1]=200;
+		numbers[2]=300;
+		
+		// changes value of numbers[1]
+
+		numbers[1]=2000;
+		
+		System.out.println(numbers[3]);
+	
 	}
 
 }
